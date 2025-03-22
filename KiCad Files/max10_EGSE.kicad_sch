@@ -1,0 +1,241 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "06fc9235-c7cb-4423-bffb-e22159b20b1e")
+	(paper "A5")
+	(lib_symbols)
+	(sheet
+		(at 24.13 24.13)
+		(size 54.61 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1c29327d-2fb0-4123-911b-32d76b0c672a")
+		(property "Sheetname" "MAX10_FPGA"
+			(at 24.13 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MAX10_FPGA.kicad_sch"
+			(at 24.13 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "max10_EGSE"
+				(path "/06fc9235-c7cb-4423-bffb-e22159b20b1e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 59.69)
+		(size 55.88 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "47146fef-b130-4fb1-b086-0494a8228b00")
+		(property "Sheetname" "Connectors"
+			(at 24.13 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 24.13 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "max10_EGSE"
+				(path "/06fc9235-c7cb-4423-bffb-e22159b20b1e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 59.69)
+		(size 34.29 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a366a7f3-c125-40ad-ba7d-e0f1cc404a5b")
+		(property "Sheetname" "Memories"
+			(at 152.4 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Memories.kicad_sch"
+			(at 152.4 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "max10_EGSE"
+				(path "/06fc9235-c7cb-4423-bffb-e22159b20b1e"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 93.98 24.13)
+		(size 46.99 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b9afb035-f528-48c8-829f-4aa299e9b2aa")
+		(property "Sheetname" "Power"
+			(at 93.98 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 93.98 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "max10_EGSE"
+				(path "/06fc9235-c7cb-4423-bffb-e22159b20b1e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 24.13)
+		(size 38.1 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d02911e7-4b45-4a27-bc5c-829870e7b895")
+		(property "Sheetname" "ESP and PIC"
+			(at 151.13 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP and PIC.kicad_sch"
+			(at 151.13 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "max10_EGSE"
+				(path "/06fc9235-c7cb-4423-bffb-e22159b20b1e"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.06 59.69)
+		(size 44.45 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d20fa92a-e1d7-4754-a765-ba4e5b3f3b88")
+		(property "Sheetname" "Misc"
+			(at 99.06 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Misc.kicad_sch"
+			(at 99.06 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "max10_EGSE"
+				(path "/06fc9235-c7cb-4423-bffb-e22159b20b1e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
