@@ -601,11 +601,19 @@
     ],
     [
       "d02911e7-4b45-4a27-bc5c-829870e7b895",
-      "ESP and PIC"
+      "PIC"
     ],
     [
       "a366a7f3-c125-40ad-ba7d-e0f1cc404a5b",
       "Memories"
+    ],
+    [
+      "8d8018b8-dc06-48bc-ae0a-ef5ece764e5b",
+      "ESP32"
+    ],
+    [
+      "17e3eec9-6297-41f6-8ef7-10c379726a2d",
+      "LVDS"
     ]
   ],
   "text_variables": {}

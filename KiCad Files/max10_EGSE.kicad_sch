@@ -6,6 +6,44 @@
 	(paper "A5")
 	(lib_symbols)
 	(sheet
+		(at 60.96 93.98)
+		(size 19.05 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "17e3eec9-6297-41f6-8ef7-10c379726a2d")
+		(property "Sheetname" "LVDS"
+			(at 60.96 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LVDS.kicad_sch"
+			(at 60.96 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "max10_EGSE"
+				(path "/06fc9235-c7cb-4423-bffb-e22159b20b1e"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 24.13 24.13)
 		(size 54.61 21.59)
 		(fields_autoplaced yes)
@@ -77,6 +115,44 @@
 			(project "max10_EGSE"
 				(path "/06fc9235-c7cb-4423-bffb-e22159b20b1e"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 95.25)
+		(size 27.94 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8d8018b8-dc06-48bc-ae0a-ef5ece764e5b")
+		(property "Sheetname" "ESP32"
+			(at 24.13 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32.kicad_sch"
+			(at 24.13 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "max10_EGSE"
+				(path "/06fc9235-c7cb-4423-bffb-e22159b20b1e"
+					(page "8")
 				)
 			)
 		)
@@ -169,7 +245,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "d02911e7-4b45-4a27-bc5c-829870e7b895")
-		(property "Sheetname" "ESP and PIC"
+		(property "Sheetname" "PIC"
 			(at 151.13 23.4184 0)
 			(effects
 				(font
