@@ -3754,18 +3754,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "01a64d42-bf04-43fe-b223-20f8873cffa8")
 		(property "Reference" "R1"
-			(at 85.09 50.8 90)
+			(at 85.344 54.102 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "750"
-			(at 85.09 53.34 90)
+		(property "Value" "1k"
+			(at 84.836 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4016,6 +4015,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 85.09 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "171fe617-125c-4b93-a74f-206a7b780a40")
+		(property "Reference" "R2"
+			(at 85.344 101.092 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 84.836 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 85.09 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 85.09 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c9cc32d9-cb82-4c88-8bcc-6f9a4d327e0c")
+		)
+		(pin "1"
+			(uuid "86fee3fe-6847-408b-8d60-a1342968d48d")
+		)
+		(instances
+			(project "max10_EGSE"
+				(path "/06fc9235-c7cb-4423-bffb-e22159b20b1e/b9afb035-f528-48c8-829f-4aa299e9b2aa"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 100.33 31.75 0)
 		(unit 1)
@@ -4211,74 +4277,6 @@
 			(project "max10_EGSE"
 				(path "/06fc9235-c7cb-4423-bffb-e22159b20b1e/b9afb035-f528-48c8-829f-4aa299e9b2aa"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 241.3 81.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c9a93e3-c288-42a5-b610-7973a3f06e7c")
-		(property "Reference" "R23"
-			(at 241.3 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "750"
-			(at 241.3 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 241.3 83.058 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 241.3 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9bd0046b-9cd4-4de3-a9c6-a32b1a48aa3a")
-		)
-		(pin "1"
-			(uuid "f1f30298-2f64-4d59-80a2-9460f5fe886d")
-		)
-		(instances
-			(project "max10_EGSE"
-				(path "/06fc9235-c7cb-4423-bffb-e22159b20b1e/b9afb035-f528-48c8-829f-4aa299e9b2aa"
-					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -4866,6 +4864,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 241.3 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ead05b9-417f-4b97-b2c6-20bd38242228")
+		(property "Reference" "R23"
+			(at 241.554 78.232 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 241.046 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 241.3 83.058 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 241.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0dc65bce-ecf3-42fb-a47a-96466ef921b4")
+		)
+		(pin "1"
+			(uuid "8fa18e69-e971-4949-99dd-9ed4e45fe5ce")
+		)
+		(instances
+			(project "max10_EGSE"
+				(path "/06fc9235-c7cb-4423-bffb-e22159b20b1e/b9afb035-f528-48c8-829f-4aa299e9b2aa"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 97.79 184.15 0)
 		(unit 1)
@@ -5247,142 +5312,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 85.09 104.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b07ccce5-61af-497b-a52d-ab66f4ed9245")
-		(property "Reference" "R2"
-			(at 85.09 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "750"
-			(at 85.09 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 85.09 105.918 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 85.09 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c6645fea-7fb8-4251-8877-4b592eb6246a")
-		)
-		(pin "1"
-			(uuid "751f4af8-7bb4-4036-99ab-5809e5c2f9f2")
-		)
-		(instances
-			(project "max10_EGSE"
-				(path "/06fc9235-c7cb-4423-bffb-e22159b20b1e/b9afb035-f528-48c8-829f-4aa299e9b2aa"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 241.3 69.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2384570-5946-4c14-960a-3948b537267a")
-		(property "Reference" "R24"
-			(at 241.3 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "750"
-			(at 241.3 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 241.3 71.628 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 241.3 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "12a40930-56a7-44ae-88b4-84ea849cbe0f")
-		)
-		(pin "1"
-			(uuid "77923ae8-4348-4399-9e64-87bd2c9720b8")
-		)
-		(instances
-			(project "max10_EGSE"
-				(path "/06fc9235-c7cb-4423-bffb-e22159b20b1e/b9afb035-f528-48c8-829f-4aa299e9b2aa"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Symbol_Library:LDO_3.3_TLV1117LV33DCYR")
 		(at 69.85 143.51 0)
 		(unit 1)
@@ -5492,6 +5421,73 @@
 			(project ""
 				(path "/06fc9235-c7cb-4423-bffb-e22159b20b1e/b9afb035-f528-48c8-829f-4aa299e9b2aa"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 241.3 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8876870-783c-4594-95fa-ccfcd8840897")
+		(property "Reference" "R24"
+			(at 241.554 66.802 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 241.046 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 241.3 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 241.3 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "63f29b88-649a-416e-9a9e-4ed5121c9632")
+		)
+		(pin "1"
+			(uuid "76006d06-51f2-495a-b7a6-fa3211f3fd47")
+		)
+		(instances
+			(project "max10_EGSE"
+				(path "/06fc9235-c7cb-4423-bffb-e22159b20b1e/b9afb035-f528-48c8-829f-4aa299e9b2aa"
+					(reference "R24")
 					(unit 1)
 				)
 			)
